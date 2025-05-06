@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: url('s3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+}
+
+
+header {
+    padding: 40px;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+section {
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.service {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.project {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+button {
+    background: #FFD700;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #FFC107;
+}
+
