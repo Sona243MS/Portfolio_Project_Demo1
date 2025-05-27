@@ -7,7 +7,7 @@
 > This project is part of a team-based collaboration to build a fully functional **Professional Portfolio Website**. The goal is to provide customizable portfolio templates for users to showcase their skills, experience, and projects.
 
 ---
-
+//It gives content about the project
  About The Project
 
 This repository contains **HTML and CSS-based templates** for the *User Info* and *Project Showcase* pages of a professional portfolio.
